@@ -1,0 +1,46 @@
+body {
+    margin: 0; 
+    padding: 0; 
+    background-color: black;
+    color: white;
+    font-size: medium;
+    
+}
+
+
+#arkavideo video{
+
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    background-position: absolute;
+    z-index: 10;
+    object-fit: cover;
+}
+
+#arkavideo .content{
+
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo{
+ 
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: -500px;
+    margin-left: 200px;
+
+}
+
+
+
